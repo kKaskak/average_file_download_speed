@@ -6,7 +6,7 @@ use std::env;
 use std::fs;
 use regex::Regex;
 
-const NUM_RUNS: usize = 3;
+const NUM_RUNS: usize = 3; // change this to the number of runs you want
 
 #[tokio::main]
 async fn main() {
