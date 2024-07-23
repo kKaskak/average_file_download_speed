@@ -20,7 +20,7 @@ async fn main() {
 
     let mut total_time: f64 = 0.0;
 
-    for i in 0..NUM_RUNS {
+    for _i in 0..NUM_RUNS {
         let output = Command::new("curl")
             .arg("-w")
             .arg(&curl_format)
